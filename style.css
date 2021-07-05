@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+    color: black;
+}
+.highlight-text{
+    color: #4AACFB;
+}
+.button-design{
+    background-image: linear-gradient(to bottom left,#4183d7,#81cfe0);
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px 35px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px #91DAFD ;
+}
+.flexible{
+    display: flex;
+}
+
+
+/*top section */
+.top-section{
+    margin-top: 50px;
+}
+.top-child{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 2%;
+}
+.top-child img{
+    width: 80%;
+}
+
+
+/*about section */
+.about-section{
+    margin: 80px 0px;
+    background-image: url('images/shapes/blue-frame.jpg');
+    background-size: 100% 100%;
+}
+.about-child{
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+    margin-top: 50px;
+}
+.about-child p{
+    display: inline-block;
+    margin: 30px 0 ;
+}
+.about-section img{
+    width: 60%;
+}
+
+
+/*recipie section */
+.recipie-section{
+    margin-bottom: 80px;
+}
+.recipie-text{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+.item-card{
+    width:28%;
+    margin: 30px 2%;
+    padding:1%;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 20px;
+}
+.item-card img{
+    width: 100%;
+}
+
+
+/*bottom section */
+
+.bottom-section{
+    background-color: #0B0E17;
+    padding: 20px 0px 60px ;
+    text-align: center;
+}
