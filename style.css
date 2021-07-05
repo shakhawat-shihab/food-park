@@ -34,7 +34,7 @@ h3{
 
 /*top section */
 .top-section{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .top-child{
     width: 50%;
@@ -42,7 +42,7 @@ h3{
     padding-right: 2%;
 }
 .top-child img{
-    width: 80%;
+    width: 100%;
 }
 
 
