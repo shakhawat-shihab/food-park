@@ -46,19 +46,23 @@ p{
 /*header*/
 .header{
     background-color: #4AACFB;
-}
-.header-child{
-    width: 50%;
     color: white;
+}
+.header-child:first-of-type{
+    width: 25%;
+    padding-left: 5%;
+}
+.header-child:last-of-type{
+    width: 40%;
+    padding-left: 30%;
 }
 .header h1{
    font-family: 'Zen Tokyo Zoo', cursive;
-   padding-left: 20%;
 }
 li{
     list-style-type:none;
-    width: 33%;
-    padding: 20px;
+    width: 90px;
+    padding: 20px 0px;
     margin: 0 2%;
     border-radius: 10px;
     text-align: center;
@@ -67,9 +71,7 @@ li{
 .header-child li a{
     text-decoration: none;
     color: white;
-    font-size: 26px;
-    font-weight: 700;
-    
+    font-weight: 600;
 }
 
 
