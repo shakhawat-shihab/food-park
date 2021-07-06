@@ -43,6 +43,37 @@ p{
 }
 
 
+/*header*/
+.header{
+    background-color: #4AACFB;
+}
+.header-child{
+    width: 50%;
+    color: white;
+}
+.header h1{
+   font-family: 'Zen Tokyo Zoo', cursive;
+   padding-left: 20%;
+}
+li{
+    list-style-type:none;
+    width: 33%;
+    padding: 20px;
+    margin: 0 2%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px #EBF8FF;
+}
+.header-child li a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    
+}
+
+
+
 /*top section */
 .top-child{
     width: 50%;
